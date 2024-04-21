@@ -51,6 +51,7 @@ while True:
         guesses += 1
         print("How did you know the number was " + str(r) + "??????")
         break
+    
 if(guesses <= 2):
     print("Did you cheat? You only guessed", guesses,"times.")
 elif(guesses >= 3):
