@@ -58,5 +58,5 @@ elif(guesses >= 3):
     print("Dang you're good... You guessed", guesses,"times")
 elif(guesses >= 10):
     print("Not bad")
-else:
+elif(guesses >= 15):
     print("The force is not strong with this one... You had to guess", guesses,"times")
